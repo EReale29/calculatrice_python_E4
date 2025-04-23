@@ -27,6 +27,11 @@ def calculatrice():
 
         if user_input == "quit":
             break
+        elif user_input == "test":
+            print("Résultat test ajouter:", test_ajouter())
+            print("Résultat test soustraire:", test_soustraire())
+            print("Résultat test multiplier:", test_multiplier())
+            print("Résultat test diviser:", test_diviser())   
         elif user_input in ("add", "subtract", "multiply", "divide"):
             num1 = float(input("Entrez le premier nombre: "))
             num2 = float(input("Entrez le deuxième nombre: "))
@@ -39,11 +44,6 @@ def calculatrice():
                 print("Résultat:", multiplier(num1, num2))
             elif user_input == "divide":
                 print("Résultat:", diviser(num1, num2))
-            elif user_input == "test":
-                print("Résultat test ajouter:", test_ajouter())
-                print("Résultat test soustraire:", test_soustraire())
-                print("Résultat test multiplier:", test_multiplier())
-                print("Résultat test diviser:", test_diviser())
 
         else:
             print("Option invalide")
