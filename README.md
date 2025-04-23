@@ -8,9 +8,15 @@ Groupe 1,
 |Alex Chitu      |`Scrum Master`                 |
 
 
+# Clone
 
+`git clone`
 
 # Execution
 
-git clone, and ready to use ! 
+`python calculatrice.py`
+
+# Unittest
+
+`python test_main.py`
 
