@@ -20,4 +20,4 @@ Groupe 1,
 
 `python test_main.py`
 
-test
+test 2.0
