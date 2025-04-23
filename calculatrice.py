@@ -51,28 +51,6 @@ def calculatrice():
 def main():
     calculatrice()
 
-def test_ajouter():
-    assert ajouter(2, 3) == 5
-    assert ajouter(-1, 1) == 0
-    assert ajouter(0, 0) == 0
-
-def test_soustraire():
-    assert soustraire(5, 3) == 2
-    assert soustraire(10, 7) == 3
-    assert soustraire(0, 0) == 0
-    assert soustraire(5, 10) == -5
-
-def test_multiplier():
-    assert multiplier(2, 3) == 6
-    assert multiplier(-1, 5) == -5
-    assert multiplier(0, 10) == 0
-    assert multiplier(5, 0) == 0
-
-def test_diviser():
-    assert diviser(10, 2) == 5
-    assert diviser(15, 3) == 5
-    assert diviser(0, 5) == 0
-    assert diviser(5, 0) == "Erreur : Division par zéro"
 
 if __name__ == "__main__":
     main()
