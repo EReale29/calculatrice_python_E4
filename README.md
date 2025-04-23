@@ -1,8 +1,8 @@
 # Bienvenue sur notre calculatrice bien sympa!
 
 Groupe 1,
-|Noms            |Rôles                         |                             
-|----------------|-------------------------------|-----------------------------|
+|Noms            |Rôles                          |                             
+|----------------|-------------------------------|
 |Rabah Debbah    |`Product Owner `               |
 |Enzo Reale      |`Developpeur `                 |
 |Alex Chitu      |`Scrum Master`                 |
